@@ -1,6 +1,5 @@
 def count_strings(array)
-  array.count do |string|
-    string.length
+  array.any? do |word| word == "" 
   # Return the total number of strings in the provided array using the count enumerable
   end
 end
