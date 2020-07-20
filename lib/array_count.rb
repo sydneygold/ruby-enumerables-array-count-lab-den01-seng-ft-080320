@@ -1,5 +1,6 @@
 def count_strings(array)
-  return array.count do |string|
+  return array.count do |element|
+    element.class == String
   end
 end
 
